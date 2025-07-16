@@ -8,6 +8,12 @@ echo "Betriebssystem: $(grep ^PRETTY /etc/os-release | cut -d = -f2 | tr -d '"')
 echo ""
 echo ""
 
+echo "#### RAM status ####"
+echo ""
+free -h
+echo ""
+echo ""
+
 echo "#### Festplattenstatus ####"
 echo ""
 df -h
